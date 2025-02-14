@@ -15,7 +15,6 @@ Jupyter Notebooks ```main.ipynb```.
 
 ### Resultados
 
-É possível observar que os resultados foram positivos para preços menores, porém as casas com preços maiores não são capazes de serem preditas
-corretamente, provavelmente em decorrência da falta de dados, ou até por limitações do modelo escolhido. Outro resultado interessante é que o 
-modelo treinado com apenas 3 _features_ performou de maneira semelhante ao modelo com todas as _features_, mostrando que, em razão de 
-multicolinearidade, as _features_ excluídas não agregavam tanto ao modelo. 
+É possível observar que os resultados foram positivos e seguem uma tendência linear. Outro resultado interessante é que o 
+modelo treinado com apenas as _features_ contendo as variáveis _dummies_ do _zipcode_, _sqft_living_, _lat_ e _view_, performou de maneira semelhante ao modelo com todas as _features_,
+mostrando que, em razão de multicolinearidade, as _features_ excluídas não agregavam tanto ao modelo. 
